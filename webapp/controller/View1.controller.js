@@ -14,6 +14,7 @@ sap.ui.define([
                 //Attach event for routing on view patter matched 
                 this._oRouter.attachRouteMatched(this.onRouteMatched, this);
                 // this.onReadAll();
+                
             },
 
             onRouteMatched: function (oEvent) {
